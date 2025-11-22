@@ -1,0 +1,284 @@
+* {
+    box-sizing: border-box; /* Garante que padding e borda não aumentem o tamanho total do elemento */
+}
+
+:root {
+    --primary-color: #8ab4f8; /* Define a cor primária (azul claro) como uma variável */
+    --secondary-color: #e8eaed; /* Define a cor secundária (cinza claro) como uma variável */
+    --tertiary-color: #9aa0a6; /* Define a cor terciária (cinza médio) como uma variável */
+    --bg-color: #202124; /* Define a cor de fundo (cinza escuro) como uma variável */
+}
+
+body {
+    margin: 0; /* Remove a margem padrão do corpo da página */
+    color: var(--secondary-color); /* Define a cor padrão do texto usando a variável --secondary-color */
+    font-family: "Quicksand", sans-serif; /* Define a família de fontes para toda a página */
+
+    /* Adiciona a imagem de fundo com um gradiente escuro por cima para não atrapalhar a leitura */
+    background-image: linear-gradient(rgba(32, 33, 36, 0.85), rgba(32, 33, 36, 0.85)), url('https://media.gq-magazine.co.uk/photos/606d98dde64c72d60de68443/16:9/w_2560%2Cc_limit/Daytona-lead.jpg');
+    background-size: cover; /* Faz a imagem cobrir todo o fundo, ideal para close-ups */
+    background-position: center; /* Centraliza a imagem */
+    background-attachment: fixed; /* Mantém a imagem fixa durante a rolagem */
+}
+
+header {
+    padding: 2rem 1rem; /* Define o espaçamento interno (2rem em cima/baixo, 1rem nas laterais) */
+    display: flex; /* Ativa o layout flexbox para alinhar os itens */
+    align-items: center; /* Centraliza os itens do flexbox verticalmente */
+    justify-content: space-around; /* Distribui os itens do flexbox com espaço igual ao redor */
+    position: sticky; /* Faz o cabeçalho ficar fixo no topo da tela durante a rolagem */
+    top: 0; /* Define a posição do cabeçalho no topo da página */
+    background: var(--bg-color); /* Aplica a cor de fundo do cabeçalho */
+    z-index: 10; /* Garante que o cabeçalho fique acima de outros elementos */
+    border-bottom: 1px solid var(--bg-color); /* Adiciona uma linha sutil na parte inferior do cabeçalho */
+    gap: 1rem; /* Define um espaçamento de 1rem entre os itens do cabeçalho */
+}
+
+header h1 {
+    font-size: 1.5rem; /* Define o tamanho da fonte do título principal */
+    margin: 0; /* Remove qualquer margem externa do título */
+    font-weight: 500; /* Define o peso da fonte como médio */
+    white-space: nowrap; /* Impede que o texto do título quebre em várias linhas */
+}
+
+div input {
+    padding: 0.375rem 0.75rem; /* Define o espaçamento interno do campo de texto */
+    border-radius: 1rem; /* Arredonda as bordas do campo de texto */
+    border: 1px solid var(--tertiary-color); /* Define a cor e a espessura da borda */
+    background: var(--bg-color); /* Define a cor de fundo do campo de texto */
+    font-family: inherit; /* Faz o campo de texto herdar a fonte do elemento pai */
+    font-size: 1.5rem; /* Define o tamanho da fonte do texto inserido */
+    transition: all 0.2s ease; /* Adiciona uma animação suave para todas as mudanças de estilo */
+    width: 30rem; /* Define a largura do campo de texto */
+    color: var(--secondary-color); /* Define a cor do texto digitado */
+    margin-right: .5rem; /* Adiciona uma margem à direita do campo de texto */
+}
+
+div input::placeholder {
+    font-size: 1.2rem; /* Define o tamanho da fonte para o texto de placeholder */
+    font-weight: 300; /* Define o peso da fonte para o texto de placeholder como leve */
+    color: var(--tertiary-color); /* Define a cor do texto de placeholder */
+}
+
+div input:focus {
+    outline: none; /* Remove a linha de contorno padrão que aparece ao focar o campo */
+    border-color: var(--bg-color); /* Muda a cor da borda quando o campo está em foco */
+    box-shadow: 0 0 0 0.1rem var(--tertiary-color); /* Adiciona uma sombra para destacar o campo em foco */
+}
+
+#botao-busca {
+    padding: 1rem 2rem; /* Define o espaçamento interno do botão */
+    border-radius: 1rem; /* Arredonda as bordas do botão */
+    border: none; /* Remove a borda padrão do botão */
+    cursor: pointer; /* Transforma o cursor em uma "mãozinha" ao passar sobre o botão */
+    font-family: inherit; /* Faz o botão herdar a fonte do elemento pai */
+    font-weight: 500; /* Define o peso da fonte do texto do botão */
+    font-size: 1rem; /* Define o tamanho da fonte do texto do botão */
+    white-space: nowrap; /* Impede que o texto do botão quebre em várias linhas */
+    transition: background-color 0.2s ease, color 0.2s ease; /* Animação suave para a mudança de cor de fundo e do texto */
+    background-color: var(--bg-color); /* Define a cor de fundo do botão */
+    color: var(--secondary-color); /* Define a cor do texto do botão */
+    border: 1px solid var(--bg-color); /* Adiciona uma borda sutil ao botão */
+}
+
+#botao-busca:hover {
+    background-color: var(--primary-color); /* Muda a cor de fundo quando o mouse está sobre o botão */
+    color: var(--bg-color); /* Muda a cor do texto quando o mouse está sobre o botão */
+    box-shadow: 0 0 0 0.1rem var(--primary-color); /* Adiciona uma sombra para destacar o botão no hover */
+}
+
+#botao-busca:active {
+    transform: scale(0.98); /* Cria um efeito de "pressionar" diminuindo o tamanho do botão ao ser clicado */
+}
+
+main {
+    overflow-y: scroll; /* Adiciona uma barra de rolagem vertical se o conteúdo for maior que a área visível */
+    max-width: 80rem; /* Define a largura máxima para o conteúdo principal */
+    margin: 0 auto; /* Centraliza o conteúdo principal na página horizontalmente */
+    margin-top: 2rem; /* Adiciona uma margem no topo do conteúdo principal */
+    height: calc(100vh - 10rem - 4rem); /* Calcula a altura do conteúdo principal para ocupar o espaço restante na tela */
+}
+
+#welcome-message {
+    text-align: center;
+    padding: 2rem 1rem;
+    margin: 0 auto 2rem auto;
+    max-width: 60rem;
+    /* Animação de entrada */
+    opacity: 0; /* Começa invisível */
+    transform: translateY(20px); /* Começa um pouco para baixo */
+    animation: fadeInUp 1s ease-out forwards; /* Aplica a animação */
+}
+
+#welcome-message h2 {
+    font-size: 2rem;
+    color: var(--primary-color);
+    margin-bottom: 1rem;
+}
+
+#welcome-message p {
+    font-size: 1.1rem;
+    line-height: 1.7;
+    color: var(--secondary-color);
+}
+
+article {
+    background: none; /* Define o fundo do artigo como transparente */
+    border-radius: 0; /* Remove qualquer arredondamento de borda */
+    padding: 0; /* Zera o espaçamento interno (sobrescrito pela próxima regra) */
+    padding: 0 1rem; /* Adiciona espaçamento interno nas laterais do artigo */
+    margin-bottom: 1.25rem; /* Adiciona uma margem na parte inferior do artigo */
+    box-shadow: none; /* Remove qualquer sombra do artigo */
+    transition: background-color 0.3s ease, border-bottom-color 0.3s ease; /* Animação suave para mudanças de cor */
+    border-bottom: 1px solid var(--bg-color); /* Adiciona uma linha sutil na parte inferior do artigo */
+    padding-bottom: 1.5rem; /* Adiciona espaçamento interno na parte inferior do artigo */
+}
+
+article:hover {
+    transform: scale(1.01); /* Aumenta levemente o tamanho do artigo quando o mouse passa por cima */
+    cursor: pointer; /* Transforma o cursor em uma "mãozinha" para indicar que é clicável */
+}
+
+article h2 {
+    display: flex; /* Alinha a logo e o nome lado a lado */
+    align-items: center; /* Centraliza verticalmente a logo e o nome */
+    gap: 0.75rem; /* Adiciona um espaço entre a logo e o nome */
+    margin-top: 0; /* Remove a margem do topo do título do artigo */
+    font-weight: 600; /* Define o peso da fonte como semi-negrito */
+    font-size: 1.6rem; /* Define o tamanho da fonte do título do artigo */
+    border-bottom: none; /* Remove qualquer linha na parte inferior do título */
+    padding-bottom: 0; /* Remove o espaçamento interno na parte inferior do título */
+    margin-bottom: 0.25rem; /* Adiciona uma pequena margem na parte inferior do título */
+    color: var(--primary-color); /* Define a cor do texto do título */
+}
+
+.brand-logo {
+    height: 24px; /* Define uma altura fixa para a logo */
+    width: auto; /* Deixa a largura se ajustar proporcionalmente */
+    max-width: 32px; /* Limita a largura máxima para logos muito largas */
+    object-fit: contain; /* Garante que a imagem não seja distorcida */
+}
+
+article p {
+    margin: 0.5rem 0; /* Adiciona margem em cima e embaixo do parágrafo */
+    line-height: 1.6; /* Define a altura da linha para melhorar a legibilidade */
+    font-size: 1rem; /* Define o tamanho da fonte do parágrafo */
+    margin-bottom: 0.5rem; /* Adiciona uma margem na parte inferior do parágrafo */
+    color: var(--secondary-color); /* Define a cor do texto do parágrafo */
+}
+
+article p strong {
+    color: var(--tertiary-color); /* Define a cor para o texto em negrito dentro de um parágrafo */
+    font-weight: 400; /* Define o peso da fonte como normal (sobrescreve o negrito padrão) */
+}
+
+article a {
+    color: var(--primary-color); /* Define a cor dos links dentro de um artigo */
+    text-decoration: none; /* Remove o sublinhado padrão dos links */
+    font-weight: 200; /* Define o peso da fonte como extra-leve */
+}
+
+article a:hover {
+    text-decoration: underline; /* Adiciona um sublinhado quando o mouse passa sobre o link */
+}
+
+.footer {
+    position: absolute; /* Define o posicionamento como absoluto */
+    bottom: 0; /* Posiciona o rodapé na parte inferior da página */
+    left: 0; /* Posiciona o rodapé na borda esquerda da página */
+    width: 100%; /* Faz o rodapé ocupar 100% da largura da página */
+    color: var(--tertiary-color); /* Define a cor do texto do rodapé */
+    background-color: var(--bg-color); /* Define a cor de fundo do rodapé */
+    padding: 15px 20px; /* Adiciona espaçamento interno ao rodapé */
+    border-top: 1px solid #3c4043; /* Adiciona uma linha no topo do rodapé */
+    font-size: 0.8rem; /* Define o tamanho da fonte do texto do rodapé */
+}
+
+.footer-location {
+    color: #9aa0a6; /* Define a cor do texto para a localização no rodapé */
+    margin-bottom: 10px; /* Adiciona uma margem na parte inferior do elemento de localização */
+}
+
+.footer-links {
+    list-style: none; /* Remove os marcadores (bolinhas) da lista */
+    display: flex; /* Ativa o layout flexbox para os itens da lista */
+    flex-wrap: wrap; /* Permite que os itens da lista quebrem para a próxima linha se não houver espaço */
+    justify-content: center; /* Centraliza os links do rodapé horizontalmente */
+    gap: 15px; /* Define um espaçamento de 15px entre os links */
+}
+
+.footer-links a {
+    color: var(--secondary-color); /* Define a cor dos links no rodapé */
+    text-decoration: none; /* Remove o sublinhado padrão dos links */
+    transition: color 0.2s; /* Adiciona uma animação suave para a mudança de cor do link */
+}
+
+.footer-links a:hover {
+    color: var(--accent-color); /* Muda a cor do link quando o mouse passa por cima (variável --accent-color não está definida) */
+}
+
+@media (max-width: 768px) {
+    header { /* Inicia um bloco de regras para telas com largura máxima de 768px (tablets) */
+        flex-direction: column; /* Empilha os itens do cabeçalho verticalmente */
+        padding: 1rem; /* Reduz o espaçamento interno do cabeçalho */
+    }
+
+    header h1 { /* Estiliza o h1 dentro do cabeçalho para telas menores */
+        text-align: center; /* Centraliza o texto do título */
+        margin-bottom: 1rem; /* Adiciona uma margem abaixo do título */
+    }
+
+    div input { /* Estiliza o campo de texto para telas menores */
+        width: 90vw; /* Define a largura como 90% da largura da janela de visualização */
+        font-size: 1.2rem; /* Reduz o tamanho da fonte do campo de texto */
+    }
+
+    main { /* Estiliza o conteúdo principal para telas menores */
+        padding: 0 1rem; /* Adiciona espaçamento interno nas laterais */
+    }
+
+    article:hover { /* Estiliza o artigo no hover para telas menores */
+        transform: none; /* Remove o efeito de zoom ao passar o mouse para evitar problemas em dispositivos de toque */
+    }
+}
+
+@media (max-width: 480px) {
+    header h1 { /* Inicia um bloco de regras para telas com largura máxima de 480px (celulares) */
+        font-size: 1rem; /* Reduz ainda mais o tamanho da fonte do título */
+        max-width: 70%; /* Limita a largura máxima do título */
+        word-wrap: break-word; /* Permite que palavras longas quebrem para a próxima linha */
+    }
+
+    div input, /* Seleciona o campo de texto e seu placeholder para telas muito pequenas */
+    div input::placeholder {
+        font-size: 1rem; /* Reduz o tamanho da fonte para ambos */
+    }
+
+    article h2 { /* Estiliza o título do artigo para telas muito pequenas */
+        font-size: 1.3rem; /* Reduz o tamanho da fonte do título do artigo */
+    }
+
+    div { /* Estiliza a div que contém o input e o botão para telas muito pequenas */
+        display: flex; /* Ativa o layout flexbox */
+        align-items: center; /* Centraliza os itens verticalmente */
+        justify-content: center; /* Centraliza os itens horizontalmente */
+        flex-direction: column; /* Empilha os itens verticalmente */
+        gap: 0.5rem; /* Define um espaçamento de 0.5rem entre os itens */
+    }
+
+    .footer { /* Estiliza o rodapé para telas muito pequenas */
+        display: none; /* Oculta completamente o rodapé */
+    }
+
+    button { /* Estiliza o botão para telas muito pequenas */
+        margin-top: 1rem; /* Adiciona uma margem no topo do botão */
+    }
+}
+
+/* Define os passos da animação */
+@keyframes fadeInUp {
+    to {
+        opacity: 1; /* Termina totalmente visível */
+        transform: translateY(0); /* Termina na posição original */
+    }
+}

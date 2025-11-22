@@ -1,0 +1,404 @@
+[
+  {
+    "nome": "Rolex",
+    "descricao": "A rolex é uma fabricante de relogios de luxo",
+    "ano": 1905,
+    "link": "https://www.rolex.com/pt-br/about-rolex/history/1905-1919",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAKfYkBsLWdqJPKF27RTHCnrH-li8Frolu3w&s"
+  },
+  {
+    "nome":"Casio",
+    "descricao": "A Casio é uma marca japonesa conhecida por produzir relógios duráveis, precisos e acessíveis. Ela ficou famosa pelos modelos digitais resistentes, como a linha G-Shock, reconhecida pela robustez extrema, e pelos modelos clássicos retrô, como o F-91W. A marca combina tecnologia, funcionalidade e design simples, sendo muito popular por sua confiabilidade no dia a dia",
+    "ano": 1946,
+    "link": "https://world.casio.com/corporate/history/",
+    "logo": "https://cdn.worldvectorlogo.com/logos/casio-2.svg"
+  },
+  {
+    "nome": "Orient",
+    "descricao": "A Orient é uma marca japonesa de relógios conhecida pela tradição em relógios mecânicos e automáticos de alta qualidade com preço acessível. A marca se destaca pelo design clássico, precisão e durabilidade, sendo muito respeitada entre entusiastas de relógios. Seus modelos vão desde peças elegantes e formais até opções esportivas, mantendo sempre a reputação de confiabilidade e bom custo-benefício.",
+    "ano": 1950,
+    "link":"https://www.orientrelogios.com.br/70anos_historia.asp",
+    "logo": "https://cdn.worldvectorlogo.com/logos/orient-3.svg"
+  },
+  {
+    "nome": "Seiko",
+    "descricao": "A Seiko é uma das marcas de relógios mais prestigiadas do Japão. Ela é conhecida por inovação, precisão e excelente qualidade de construção. Foi responsável por grandes avanços na relojoaria, como o lançamento do primeiro relógio de quartzo do mundo (Seiko Quartz Astron, em 1969).",
+    "ano": 1881,
+    "link": "https://www.seikowatches.com/br-pt/world#history",
+    "logo": "https://cdn.worldvectorlogo.com/logos/seiko-1.svg"
+},
+  {
+    "nome": "Omega",
+    "descricao": "A omega é uma fabricante suiça de relogios de luxo",
+    "ano": 1848,
+    "link": "https://www.omegawatches.com/chronicle/1892-the-first-minute-repeater-for-the-wrist",
+    "logo": "https://cdn.worldvectorlogo.com/logos/omega-5.svg"
+  },
+  {
+    "nome": "Patek Philippe",
+    "descricao": "Fabricante suíça de relógios de luxo, considerada uma das mais prestigiadas do mundo.",
+    "ano": 1839,
+    "link": "https://www.patek.com/pt/empresa/historia",
+    "logo": "https://cdn.worldvectorlogo.com/logos/patek-philippe.svg"
+  },
+  {
+    "nome": "Audemars Piguet",
+    "descricao": "Manufatura suíça de relógios de alta complicação, famosa pelo modelo Royal Oak.",
+    "ano": 1875,
+    "link": "https://www.audemarspiguet.com/com/pt/our-heritage.html",
+    "logo": "https://cdn.worldvectorlogo.com/logos/audemars-piguet-1.svg"
+  },
+  {
+    "nome": "TAG Heuer",
+    "descricao": "Marca suíça conhecida por seus relógios esportivos e cronógrafos, com forte ligação com o automobilismo.",
+    "ano": 1860,
+    "link": "https://www.tagheuer.com/br/pt/historia-da-marca/history.html",
+    "logo": "https://cdn.worldvectorlogo.com/logos/tag-heuer-2.svg"
+  },
+  {
+    "nome": "Cartier",
+    "descricao": "Empresa francesa de bens de luxo que projeta, fabrica e vende joias e relógios.",
+    "ano": 1847,
+    "link": "https://www.cartier.com/pt-br/a-maison/explorar-a-cartier/a-historia-da-cartier.html",
+    "logo": "https://cdn.worldvectorlogo.com/logos/cartier.svg"
+  },
+  {
+    "nome": "Richard Mille",
+    "descricao": "Marca suíça conhecida por seus relógios de altíssima tecnologia, design inovador e uso de materiais de vanguarda, inspirados na Fórmula 1.",
+    "ano": 2001,
+    "link": "https://www.richardmille.com/brand/history",
+    "logo": "https://cdn.worldvectorlogo.com/logos/richard-mille.svg"
+  },
+  {
+    "nome": "Vacheron Constantin",
+    "descricao": "A mais antiga manufatura de relógios em atividade contínua desde sua fundação. É um pilar da Alta Relojoaria, conhecida por sua tradição, complexidade técnica e acabamento impecável, especialmente em movimentos ultra-finos e complicações astronômicas.",
+    "data_criacao": "1755",
+    "link": "https://www.vacheron-constantin.com/",
+    "logo": "https://cdn.worldvectorlogo.com/logos/vacheron-constantin-1.svg",
+    "tags": [
+      "Patrimony",
+      "Overseas",
+      "Historiques",
+      "Traditionnelle",
+      "Métiers d'Art"
+    ]
+  },
+  {
+    "nome": "A. Lange & Söhne",
+    "descricao": "Marca alemã de alta relojoaria, revivida após a reunificação alemã. Famosa por seus movimentos exclusivos de placa de três quartos, acabamento manual de Glashütte e design de mostrador limpo. Considerada rival das maiores marcas suíças.",
+    "data_criacao": "1845",
+    "link": "https://www.alange-soehne.com/",
+    "logo": "https://cdn.worldvectorlogo.com/logos/a-lange-sohne.svg",
+    "tags": [
+      "Lange 1",
+      "Zeitwerk",
+      "Datograph",
+      "Saxonia",
+      "Grand Complication"
+    ]
+  },
+  {
+    "nome": "Jaeger-LeCoultre",
+    "descricao": "Conhecida como a 'Grande Maison' do Vallée de Joux, JLC é reverenciada por ter criado mais de mil calibres diferentes. Excelência em movimentos e complicações, sendo fornecedora histórica para muitas outras marcas de luxo.",
+    "data_criacao": "1833",
+    "link": "https://www.jaeger-lecoultre.com/",
+    "logo": "https://cdn.worldvectorlogo.com/logos/jaeger-lecoultre.svg",
+    "tags": [
+      "Reverso",
+      "Master Control",
+      "Memovox",
+      "Duomètre",
+      "Atmos"
+    ]
+  },
+  {
+    "nome": "Breguet",
+    "descricao": "Fundada por Abraham-Louis Breguet, um dos maiores relojoeiros da história, responsável pela invenção do turbilhão e o overcoil Breguet. A marca é sinônimo de classicismo, mostradores guilloché e caixas caneladas.",
+    "data_criacao": "1775",
+    "link": "https://www.breguet.com/",
+    "logo": "https://cdn.worldvectorlogo.com/logos/breguet.svg",
+    "tags": [
+      "Classique",
+      "Type XX",
+      "Marine",
+      "Tradition",
+      "Reine de Naples"
+    ]
+  },
+  {
+    "nome": "IWC Schaffhausen",
+    "descricao": "A International Watch Company combina a engenharia suíça com a precisão alemã, focando em relógios robustos e funcionais. É especialmente famosa por suas coleções de relógios de piloto e cronógrafos complexos.",
+    "data_criacao": "1868",
+    "link": "https://www.iwc.com/",
+    "logo": "https://cdn.worldvectorlogo.com/logos/iwc-schaffhausen.svg",
+    "tags": [
+      "Portugieser",
+      "Pilot's Watch",
+      "Portofino",
+      "Aquatimer",
+      "Da Vinci"
+    ]
+  },
+  {
+    "nome": "Zenith",
+    "descricao": "Uma das poucas manufaturas suíças que produzem seus próprios movimentos internamente. É lendária por criar o calibre El Primero em 1969, um dos primeiros cronógrafos automáticos de alta frequência (36.000 VpH).",
+    "data_criacao": "1865",
+    "link": "https://www.zenith-watches.com/",
+    "logo": "https://cdn.worldvectorlogo.com/logos/zenith-watches.svg",
+    "tags": [
+      "El Primero",
+      "Defy",
+      "Pilot",
+      "Chronomaster",
+      "Academy"
+    ]
+  },
+  {
+    "nome": "Breitling",
+    "descricao": "Marca suíça historicamente ligada à aviação e ao cronógrafo. Desenvolveu o conceito moderno de cronógrafo com dois botões. Famosa por seus relógios grandes, técnicos e focados em instrumentos de pulso.",
+    "data_criacao": "1884",
+    "link": "https://www.breitling.com/",
+    "logo": "https://cdn.worldvectorlogo.com/logos/breitling-1.svg",
+    "tags": [
+      "Navitimer",
+      "Chronomat",
+      "Superocean",
+      "Emergency",
+      "Premier"
+    ]
+  },
+  {
+    "nome": "Panerai",
+    "descricao": "Originalmente fornecedora de instrumentos de precisão para a Marinha Real Italiana. Panerai é reconhecida por suas caixas grandes, almofadadas e a invenção das pulseiras de segurança Luminor e Radiomir.",
+    "data_criacao": "1860",
+    "link": "https://www.panerai.com/",
+    "logo": "https://cdn.worldvectorlogo.com/logos/panerai.svg",
+    "tags": [
+      "Luminor",
+      "Radiomir",
+      "Submersible",
+      "Marina Militare"
+    ]
+  },
+  {
+    "nome": "Hublot",
+    "descricao": "Uma marca moderna conhecida por sua 'arte da fusão', misturando materiais inovadores como cerâmica, carbono e ouro com borracha natural. Seu design arrojado e esportivo redefiniu o conceito de relógios de luxo no século XXI.",
+    "data_criacao": "1980",
+    "link": "https://www.hublot.com/",
+    "logo": "https://cdn.worldvectorlogo.com/logos/hublot.svg",
+    "tags": [
+      "Big Bang",
+      "Classic Fusion",
+      "MP Collection",
+      "Square Bang"
+    ]
+  },
+  {
+    "nome": "Blancpain",
+    "descricao": "A marca de relógios mais antiga do mundo, anterior à Vacheron Constantin, embora tenha tido interrupções. É famosa por sua filosofia de nunca produzir relógios de quartzo e por criar o icônico relógio de mergulho moderno, o Fifty Fathoms.",
+    "data_criacao": "1735",
+    "link": "https://www.blancpain.com/",
+    "logo": "https://cdn.worldvectorlogo.com/logos/blancpain.svg",
+    "tags": [
+      "Fifty Fathoms",
+      "Villeret",
+      "L-Evolution",
+      "Air Command"
+    ]
+  },
+  {
+    "nome": "Glashütte Original",
+    "descricao": "Herdeira direta da tradição relojoeira de Glashütte, na Alemanha. A marca se destaca pela produção 100% interna de movimentos, platina de três quartos e o 'Panorama Date' (data grande de Glashütte).",
+    "data_criacao": "1845",
+    "link": "https://www.glashuette-original.com/",
+    "logo": "https://cdn.worldvectorlogo.com/logos/glashutte-original.svg",
+    "tags": [
+      "Senator",
+      "PanoReserve",
+      "Seventies",
+      "Spezialist"
+    ]
+  },
+  {
+    "nome": "Ulysse Nardin",
+    "descricao": "Historicamente celebrada por seus cronômetros marítimos de alta precisão. Na era moderna, é pioneira no uso de silício e materiais inovadores em seus movimentos. A coleção Freak revolucionou a relojoaria contemporânea.",
+    "data_criacao": "1846",
+    "link": "https://www.ulysse-nardin.com/",
+    "logo": "https://cdn.worldvectorlogo.com/logos/ulysse-nardin.svg",
+    "tags": [
+      "Freak",
+      "Marine",
+      "Executive",
+      "Blast"
+    ]
+  },
+  {
+    "nome": "Girard-Perregaux",
+    "descricao": "Manufatura suíça com rica história e uma dedicação profunda à pesquisa técnica. Conhecida pela sua ponte de turbilhão de três pontes douradas, uma complicação patenteada e esteticamente única.",
+    "data_criacao": "1791",
+    "link": "https://www.girard-perregaux.com/",
+    "logo": "https://cdn.worldvectorlogo.com/logos/girard-perregaux.svg",
+    "tags": [
+      "Laureato",
+      "Three Gold Bridges",
+      "Vintage 1945",
+      "Traveller"
+    ]
+  },
+  {
+    "nome": "Chopard",
+    "descricao": "Conhecida inicialmente por joias, Chopard elevou sua divisão de relógios com a fundação da Manufatura L.U.C em 1996, dedicada à Alta Relojoaria. Seus movimentos L.U.C são altamente respeitados por seu acabamento e complexidade.",
+    "data_criacao": "1860",
+    "link": "https://www.chopard.com/",
+    "logo": "https://cdn.worldvectorlogo.com/logos/chopard-1.svg",
+    "tags": [
+      "L.U.C",
+      "Mille Miglia",
+      "Happy Sport",
+      "Alpine Eagle"
+    ]
+  },
+  {
+    "nome": "Montblanc",
+    "descricao": "Embora famosa por canetas, a Montblanc entrou seriamente na Alta Relojoaria ao adquirir a histórica manufatura Minerva. Agora, a marca é celebrada por seus cronógrafos complexos, baseados nos designs clássicos da Minerva.",
+    "data_criacao": "1906",
+    "link": "https://www.montblanc.com/",
+    "logo": "https://cdn.worldvectorlogo.com/logos/montblanc-1.svg",
+    "tags": [
+      "1858",
+      "Star Legacy",
+      "TimeWalker",
+      "Geosphere"
+    ]
+  },
+  {
+    "nome": "Tudor",
+    "descricao": "Fundada por Hans Wilsdorf (também fundador da Rolex) como uma alternativa de luxo mais acessível. Ganhou enorme popularidade por oferecer qualidade, robustez e movimentos de manufatura em designs que celebram sua herança militar e de mergulho.",
+    "data_criacao": "1926",
+    "link": "https://www.tudorwatch.com/",
+    "logo": "https://cdn.worldvectorlogo.com/logos/tudor.svg",
+    "tags": [
+      "Black Bay",
+      "Pelagos",
+      "Chrono",
+      "Prince Oysterdate"
+    ]
+  },
+  {
+    "nome": "Grand Seiko",
+    "descricao": "Divisão de luxo da Seiko, focada na precisão extrema, estética japonesa única (Zaratsu Polishing) e inovações técnicas como o movimento Spring Drive. É considerada uma das marcas com maior qualidade de acabamento do mundo.",
+    "data_criacao": "1960",
+    "link": "https://www.grand-seiko.com/",
+    "logo": "https://cdn.worldvectorlogo.com/logos/grand-seiko.svg",
+    "tags": [
+      "Spring Drive",
+      "Hi-Beat 36000",
+      "Elegance Collection",
+      "Zaratsu Polishing"
+    ]
+  },
+  {
+    "nome": "F.P. Journe",
+    "descricao": "Marca independente moderna, liderada pelo mestre relojoeiro François-Paul Journe. Conhecida por seu slogan 'Invenit et Fecit' (Inventado e Feito), produzindo relógios de altíssima complexidade e estética neoclássica, frequentemente em ouro rosa ou platina.",
+    "data_criacao": "1999",
+    "link": "https://www.fpjourne.com/",
+    "logo": "https://cdn.worldvectorlogo.com/logos/f-p-journe.svg",
+    "tags": [
+      "Chronomètre à Résonance",
+      "Octa",
+      "Tourbillon Souverain",
+      "Chronomètre Bleu"
+    ]
+  },
+  {
+    "nome": "H. Moser & Cie.",
+    "descricao": "Marca suíça conhecida por seu artesanato refinado e abordagem minimalista. Ganhou notoriedade por seus mostradores 'fumé' (gradientes esfumaçados) e por sua crítica sutil à indústria tradicional, muitas vezes de forma irônica.",
+    "data_criacao": "1828",
+    "link": "https://www.h-moser.com/",
+    "logo": "https://cdn.worldvectorlogo.com/logos/h-moser-cie.svg",
+    "tags": [
+      "Endeavour",
+      "Pioneer",
+      "Swiss Alp Watch",
+      "Streamliner"
+    ]
+  },
+  {
+    "nome": "Bell & Ross",
+    "descricao": "Famosa por transformar instrumentos de cockpit de aeronaves em relógios de pulso, especialmente a linha BR 01 com caixas quadradas. Focada em legibilidade, funcionalidade e estilo militar/aeronáutico.",
+    "data_criacao": "1992",
+    "link": "https://www.bellross.com/",
+    "logo": "https://cdn.worldvectorlogo.com/logos/bell-ross-1.svg",
+    "tags": [
+      "BR 01",
+      "BR 03",
+      "BR 05",
+      "Hydromax"
+    ]
+  },
+  {
+    "nome": "Nomos Glashütte",
+    "descricao": "Marca alemã que combina a herança de Glashütte com o design moderno e minimalista da escola Bauhaus. Oferece relógios elegantes, finos e com movimentos de manufatura a um ponto de preço competitivo no luxo.",
+    "data_criacao": "1990",
+    "link": "https://www.nomos-glashuette.com/",
+    "logo": "https://cdn.worldvectorlogo.com/logos/nomos-glashutte.svg",
+    "tags": [
+      "Tangente",
+      "Metro",
+      "Ludwig",
+      "Zurich"
+    ]
+  },
+  {
+    "nome": "Jaquet Droz",
+    "descricao": "Marca histórica suíça, famosa na era moderna por seus mostradores de esmalte Grand Feu e pela complicação 'Grande Seconde'. É especializada em autômatos artísticos, revivendo a arte da relojoaria do século XVIII.",
+    "data_criacao": "1738",
+    "link": "https://www.jaquet-droz.com/",
+    "logo": "https://cdn.worldvectorlogo.com/logos/jaquet-droz.svg",
+    "tags": [
+      "Grande Seconde",
+      "Loving Automaton",
+      "Atelier d'Arts",
+      "Petite Heure Minute"
+    ]
+  },
+  {
+    "nome": "Arnold & Son",
+    "descricao": "Nomeada em homenagem ao mestre relojoeiro britânico John Arnold, que desenvolveu o primeiro cronômetro marítimo funcional. A marca moderna foca em complicações complexas e estética de mostrador aberto, exibindo o movimento.",
+    "data_criacao": "1764",
+    "link": "https://www.arnoldandson.com/",
+    "logo": "https://cdn.worldvectorlogo.com/logos/arnold-son.svg",
+    "tags": [
+      "Globetrotter",
+      "Tourbillon",
+      "Timekeepers",
+      "Royal Collection"
+    ]
+  },
+  {
+    "nome": "Laurent Ferrier",
+    "descricao": "Fundada por um ex-piloto de corrida e veterano da Patek Philippe. Laurent Ferrier é uma casa independente conhecida por sua estética ultra-refinada, minimalista e movimentos com acabamento excepcional, focando na elegância e discrição.",
+    "data_criacao": "2009",
+    "link": "https://www.laurentferrier.ch/",
+    "logo": "https://cdn.worldvectorlogo.com/logos/laurent-ferrier.svg",
+    "tags": [
+      "Galet Micro-Rotor",
+      "Classic Origin",
+      "Square",
+      "École"
+    ]
+  },
+  {
+    "nome": "Bovet",
+    "descricao": "Famosa por seus relógios de bolso para o mercado chinês no século XIX, a Bovet moderna é conhecida por seus designs excêntricos, turbilhões de alta complicação e caixas conversíveis que permitem usar o relógio como pulseira, bolso ou pingente.",
+    "data_criacao": "1822",
+    "link": "https://www.bovet.com/",
+    "logo": "https://cdn.worldvectorlogo.com/logos/bovet-1822.svg",
+    "tags": [
+      "Récital",
+      "Dimier",
+      "Amadeo",
+      "Grand Complication"
+    ]
+  }
+]

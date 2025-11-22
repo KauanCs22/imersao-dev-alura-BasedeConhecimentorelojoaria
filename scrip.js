@@ -1,5 +1,15 @@
 let cardContainer = document.querySelector(".card-container");
 let dados = [];
+const searchInput = document.querySelector('input[type="text"]');
+
+// Adiciona um evento que "escuta" o pressionar de uma tecla no campo de busca
+searchInput.addEventListener('keydown', (event) => {
+    // Verifica se a tecla pressionada foi "Enter"
+    if (event.key === 'Enter') {
+        event.preventDefault(); // Impede o comportamento padrão do Enter (como recarregar a página)
+        iniciarBusca(); // Executa a busca
+    }
+});
 
 async function iniciarBusca() {
     // Seleciona a mensagem de boas-vindas e a esconde
@@ -15,7 +25,7 @@ async function iniciarBusca() {
     }
 
     // Pega o valor do campo de busca e converte para minúsculas
-    let termoBusca = document.querySelector('input[type="text"]').value.toLowerCase();
+    let termoBusca = searchInput.value.toLowerCase();
 
     // Filtra os dados com base no nome ou ano/data_criacao
     let dadosFiltrados = dados.filter(dado => {
